@@ -9,10 +9,17 @@ Instructions:
 3. If you have VSCode installed, add the live server extension, right-click on the index.html file, and select 'Open with Live Server'.
 
 ## File Structure
-├── index.html
-├── styles.css
-├── script.js
-├── countries.geojson
-├── NBAstats.csv
-└── README.md
+
+The project contains the following files:
+
+| File              | Description                |
+| ----------------- | -------------------------- |
+| index.html        | Main HTML file             |
+| styles.css        | CSS file for styling        |
+| script.js         | JavaScript file            |
+| countries.geojson | GeoJSON file with countries |
+| NBAstats.csv      | CSV file with NBA statistics|
+| README.md         | README file                |
+
+
 
