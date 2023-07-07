@@ -1,0 +1,59 @@
+<html>
+<head>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body onload="finalProject()">
+    <div>
+        <h1 class="section">Diversity and Dynamics Within the NBA</h1>
+        <h2 class = "text1"> Dive into the different and diverse backgrounds of the players in the NBA throughout the years.</h2>
+        <br>
+            <div class="text1">
+                <h3 >How Connected are American Players in the NBA?</h3>
+                <div id="1"></div>
+                <div>For the most part, the NBA is made up of players from the United States. At first glance of the visual below, 
+                    it is evident there are many connections through both colleges and teams played for. This is only for the year 1998, 
+                    going to show that on the grander scale of all time, there are even more relationships and connections. 
+                    Discover the vast amount of connections within the American players of the NBA throughout the years. <br>**Zoom in and click
+                     on different players, colleges, teams, and links to discover connections.</div>
+            </div>
+            <div class = dropdown>
+            <label for="yearMenu" id = "yearLabel">Choose a year:</label> 
+                <select name="yearMenu" id="yearMenu" onchange=recreateNodeLinkMap(this.value);> 
+            </select>
+            <div>
+            </div>
+            <button id="resetButton">Reset</button> 
+            <div class="plot1" id="plot_1"></div>
+    </div>
+
+    <div>
+        <div class="flex-container2">
+            <div class="plot2" id="plot_2"></div>
+            <div class="text2">
+                <h3>Zoom Out: NBA on a Global Scale</h3>
+                <div>What about the players who are outsiders from foreign countries? 
+                    Having explored a very interconnected NBA, what about those who aren't as connected? To the common fan, it may 
+                    seem like there are a token few foreign players relative to the American which is true. But over the years there
+                     have still been many in the league. Explore the level of global diversity in the league.</div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="flex-container2">
+            <div class="text3">
+                <h3> Does Nationality Play a Role in Draft Round?</h3>
+                <div>After looking at the global distribution of NBA players, analyze if that has an influence on a player's value. What is a good metric
+                     to gauge a players initial skill level and potential to play well? One option: Draft Number. 
+                     Players with a lower draft number are the ones seeming to have a lot of potential. Does that always hold true 
+                    throughout their careers? Not necessarily, but it is still relevant to how they’re seen and their start in the NBA. 
+                    Taking into acount the previous sections, explore how the draft value of these players to the NBA and its teams 
+                    may differ.</div>
+            </div>
+            <div class="plot3" id="plot_3"></div>
+        </div>
+    </div>
+</body>
+</html>

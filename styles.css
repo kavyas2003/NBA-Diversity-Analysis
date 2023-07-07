@@ -1,0 +1,73 @@
+.section {
+    text-align: center;
+}
+
+#resetButton {
+    display: block;
+    margin: 0 auto;
+    position: sticky;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dropdown {
+    text-align:center;
+    margin-top: 10px;
+}
+
+.plot1 svg {
+    outline: 3px solid lightgrey;
+}
+
+.flex-container2 .plot2 {
+    flex-basis: 500px;
+    padding-right: 30px; 
+}
+
+.flex-container2 .text2 {
+    flex-basis: 2000px;
+    text-align: center;
+    max-width: 400px;
+    padding-left: 15px;
+    padding-right: 50px; 
+    min-width: 400px;
+}
+
+.flex-container2 .plot3 {
+    flex-basis: 2000px;
+    margin-bottom: 20px;
+    padding-right: 200px;
+}
+
+.flex-container2 .text3 {
+    flex-basis: 500px;
+    text-align: center;
+    min-width: 400px;
+    max-width: 500px;
+    padding-left: 300px;
+    padding-right: 80px
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text1 {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.plot1 {
+    text-align: center;
+    margin: 0 auto;
+}
+  
+  
+  
